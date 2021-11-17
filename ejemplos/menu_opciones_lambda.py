@@ -11,7 +11,7 @@ while valor:
     if opcion == 1:
         num1 = int(input("Número 1: "))
         num2 = int(input("Número 2: "))
-        raiz = lambda x,y: math.sqrt((x+y)) 
+        raiz = lambda x,y: math.sqrt(x+y) 
         print(f"El resultado de la raíz de {num1} + {num2} es: {raiz(num1, num2)}")
         valor = False
 
